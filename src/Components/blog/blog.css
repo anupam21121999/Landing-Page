@@ -1,0 +1,56 @@
+.blog{
+    display: flex;
+    flex: 12;
+    margin-top: 5%;
+    position: relative;
+}
+
+.blimg{
+    align-items: center;
+    justify-content: center;
+    position: static;
+    width: 100%;
+}
+
+.blog-content{
+    display: flex;
+    
+}
+
+.blog-left{
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+    display: block;
+    flex: 6;
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 5px;
+    padding: 15px;
+}
+.para{
+    font-size: 24px;
+    font-family: 'Uchen', serif;
+    margin-left: 7px;
+}
+.para::first-letter{
+    color: tomato;
+    font-size: 30px;
+}
+
+.blog-right{
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex: 6;
+}
+
+.blogimg{
+    padding: 10px;
+    margin-left: 50px;
+}
+
+

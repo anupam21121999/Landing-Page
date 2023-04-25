@@ -1,0 +1,58 @@
+.contact{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    margin-top: 1%;
+}
+
+.lt{
+    flex: 6;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ltitems{
+    padding: 20px;
+    border-bottom: 1px solid #DC143C;
+    margin-top: 5px;
+}
+
+.btns{
+    border: 1px white;
+    color: white;
+    background-image: linear-gradient(#0000FF, #00FFFF);
+    height: 3vw;
+    width: 10vw;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.ltitems:hover{
+    padding: 20px;
+    border-bottom: 1px grey;
+    background-image: linear-gradient(#0000FF, #00FFFF);
+    color: white;
+}
+
+.rt{
+    margin-top: 10%;
+    flex: 6;
+}
+
+.icons{
+    padding: 10px;
+    justify-content: center;
+}
+
+.iconitem{
+    padding: 8px;
+    font-size: 200px;
+    margin-left: 120px;
+    cursor: pointer;
+    
+}

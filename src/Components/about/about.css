@@ -1,0 +1,37 @@
+.about{
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+}
+
+.about-left{
+    flex: 6;
+    margin-left: 25px;
+}
+
+.abt-title{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 15px;
+}
+
+.abt-title::first-letter{
+    color: lightskyblue;
+}
+
+.abt-para{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Uchen', serif;
+}
+
+.abt-para::first-letter{
+    color: red;
+    font-size: 28px;
+}
+
+
+.about-right{
+    flex: 6;
+    margin-top: -5%;
+}

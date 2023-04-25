@@ -1,0 +1,109 @@
+.feature{
+    display: block;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 50%;
+    font-family: 'Uchen', serif;
+    background-image: linear-gradient(#0000FF, #00FFFF);
+}
+
+.feature-top{
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-btn{
+    margin-top: 5%;
+    margin-left: 49%;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: lightsalmon;
+    color: orangered;
+    width: 120px;
+    height: 45px;
+    font-size: 25px;
+}
+
+.feature-title{
+    align-items: center;
+    justify-content: center;
+    margin-left: 43%;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.feature-para{
+    font-size: 25px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    padding: 15px;
+}
+
+.feature-bottom{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.feature-bottom1{
+    flex: 3;
+    display: block;
+}
+
+.feature-icon{
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    margin-top: 4vw;
+    margin-left: 25%;
+    padding: 15px;
+}
+
+.feature-bottom2{
+    flex: 3;
+}
+
+.feature-bottom3{
+    flex: 3;
+}
+
+.feature-bottom4{
+    flex: 3;
+}
+
+.features-title{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 800;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.features-para{
+    margin-left: 10px;
+    padding: 5px;
+    font-weight: 600;
+    color: white;
+}
+
+.features-title::first-letter{
+    color: darkorange;
+    font-size: 30px;
+}
+
+.features-para::first-letter{
+    color: darkorange;
+    font-size: 28px;
+}
+
+
+
+
+
